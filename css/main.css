@@ -25,7 +25,7 @@ background: none;
 margin: 0;
 color: #49494999;
 /* color: #494949; */
-
+cursor:pointer;
 font-size: 44px;
 font-weight: 700;
 font-family: 'ITCGaramondStd';
@@ -33,9 +33,7 @@ text-decoration: underline;
 }
 .relatedImages{
   display: flex;
-  justify-content: center;
- 
-  padding: 80px;
+  justify-content: flex-start;
 }
 
 .relatedImages img{
@@ -44,8 +42,8 @@ text-decoration: underline;
   object-fit: cover;
   border-radius: 20px;
 }
+
 .imgContainer{
-  width: 40vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,7 +153,10 @@ margin: auto;
   grid-column-gap: 40px;
   align-items: center;
   border-radius: 18px;
-  padding: 44px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
   cursor:default;
 }
 
@@ -180,6 +181,7 @@ margin: auto;
   letter-spacing: -0.5px;
   font-family:'ITCGaramondStd' ;
   color: #494949;
+  grid-row: 1/4;
 }
 .contact-details{
   display: grid;
@@ -273,7 +275,9 @@ transform: rotate(-44.31);
 .social-media{
   display: flex;
   gap:14px;
+  justify-content: center;
 }
+
 .logo-bg{
   background-color: #F9E0DB;
   border-radius: 18px;
@@ -286,6 +290,15 @@ transform: rotate(-44.31);
   justify-items: center;
 
 }
+.logo-image-gmail{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+}
+
 
 .myWork{
   margin-top: 200px;
@@ -387,6 +400,8 @@ white-space: nowrap;
   padding-right: 2rem;
   display: grid;
   grid-template-columns: 2fr 1.5fr;
+  row-gap: 75px;
+  column-gap: 40px;
 }
 .researchTitle{
   margin: 0;
@@ -405,6 +420,7 @@ white-space: nowrap;
   font-weight: 700;
   font-family: 'ITCGaramondStd';
   text-decoration: underline;
+  cursor: pointer;
 }
 .loremPara{
   font-family:sans-serif;
@@ -473,10 +489,14 @@ text-decoration-line: underline;
 .hairStlylist-wrapper{
   display: flex;
   flex-direction: column;
+  width: 40%;
+  cursor: default;
 }
 .hakiWebsite-wrapper{
   display: flex;
   flex-direction: column;
+  width: 40%;
+  cursor: default;
 }
 
 .hairStlylist{
@@ -591,6 +611,7 @@ font-family: 'ITCGaramondStd';
 }
 
 fieldset{
+  cursor: default;
   border-radius: 18px;
 border: 1px solid #494949;
 background: #FFF;
@@ -632,6 +653,7 @@ font-weight: 300;
 }
 .moreAboutMeSection{
   margin-top: 300px;
+  cursor: default;
 }
 
 .moreAboutTitle{
@@ -686,6 +708,7 @@ background: #F9B7A9;
 align-items: center;
   margin-top: 300px;
   flex-direction: column;
+  cursor: default;
 }
 
 .contactMeText{
@@ -717,9 +740,7 @@ align-items: center;
   .about-me{
     font-size: 32px;
   }
-  .relatedImages{
-    display: none;
-  }
+
   .myWork{
     display: flex;
     flex-direction: column;
@@ -735,9 +756,7 @@ align-items: center;
     grid-template-columns: auto;
     justify-content: center;
   }
-  .workDetails{
-    grid-column: 1;
-  }
+
 
 .research ,.fadedOff{
   justify-content: center;
@@ -771,6 +790,12 @@ align-items: center;
     display: grid;
  
    
+  }
+  .relatedImages{
+    display: none;
+  }
+  .workDetails{
+    grid-column: 1;
   }
   .one-wrapper{
     display: flex;
@@ -806,6 +831,24 @@ align-items: center;
 
   .myImageDiv{
     background: none;
+  }
+  .moreAboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+ .aboutMeText{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+  .textBold{
+    max-width: 80%;
+  }
+  .moreAboutTitle{
+    padding-bottom: 50px;
   }
 
 }
@@ -969,6 +1012,22 @@ legend{
 .two-wrapper{
   display: flex;
     flex-direction: column-reverse;
+}
+
+.allProjects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.hairStlylist-wrapper{
+  width: 70%;
+
+}
+
+.hakiWebsite-wrapper{
+  width: 70%;
 }
 }
 
