@@ -1,0 +1,1183 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'ITCGaramondStd';
+  src:
+      url('../fonts/ITCGaramondStd-Lt.otf') 
+      format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.main {
+  margin:0 auto;
+  max-width: 1600px;
+}
+nav{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.normal-font{
+  font-family:'ITCGaramondStd';
+  font-size: 40px;
+  font-weight: 200;
+}
+.menu_img{
+  /* width: 50px; */
+  height: auto;
+  margin-right: 49px;
+  margin-top: 56px;
+}
+.nameText{
+  display: flex;
+  font-family: 'ITCGaramondStd';
+  font-size: 36px;
+  font-weight: 300;
+  color: #494949;
+  margin-top: 140px;
+  justify-content: center;
+  letter-spacing:-2px;
+
+}
+.name{
+  font-style: italic;
+}
+.ItalicName{
+font-weight: 200;
+font-style: italic;
+}
+
+.introductionText{
+ margin-top: 10px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  font-size: 76px;
+  line-height: 91.2px;
+  font-family: 'ITCGaramondStd';
+  font-weight: 700;
+  color: #494949;
+  letter-spacing:-2px;
+  /* justify-content: center; */
+}
+
+.red{
+  color: #E85E56;
+  font-family: 'ITCGaramondStd';
+  margin: 0;
+}
+
+.person-img{
+display: flex;
+justify-content: center;
+margin: auto;
+}
+
+.achievements{
+  margin-top: 109px;
+  margin-bottom: 109px;
+  
+}
+.achievements{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.two-wrapper{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  flex-direction: column;
+  gap:28px;
+  font-family: 'ITCGaramondStd';
+}
+
+.one-wrapper{
+  align-content: center;
+  background-color: #F9B7A9;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 30px;
+  grid-template-rows: max-content max-content;
+  grid-column-gap: 40px;
+  align-items: center;
+  border-radius: 18px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  padding-left: 44px;
+  padding-right: 44px;
+}
+
+.about-text{
+  display: flex;
+  
+  padding-top: 72px;
+  padding-left: 44px;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  font-family:'ITCGaramondStd' ;
+  color: #494949;
+}
+
+.about-me{
+  display: grid;
+  gap:74px;
+  place-content: center;
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  font-family:'ITCGaramondStd' ;
+  color: #494949;
+}
+.contact-details{
+  display: grid;
+  gap:74px;
+
+}
+
+.smiley-face{
+  display: flex;
+  align-items: center;
+}
+.projects-completed{
+  display: flex;
+  /* flex-direction: column; */
+  background-color: #CCE5D4;
+  gap:10px;
+  border-radius: 18px;
+  padding-left: 70px;
+  padding-right:  70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* max-width: 32rem; */
+  justify-content:space-between
+
+}
+
+.hours-worked{
+  display: flex;
+  background-color: #F9EAE1;
+  gap:10px;
+  border-radius: 18px;
+  padding-left: 70px;
+  padding-right:  70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content:space-between
+
+}
+.project_count{
+  font-size: 72px;
+  /* padding-top: 40px; */
+  font-weight: 700;
+  color: #494949;
+
+}
+
+.project_text{
+ 
+  font-size: 38px;
+  color: #494949;
+  font-weight: 300;
+  letter-spacing: -2px;
+  white-space: nowrap;
+
+}
+.all-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-bottom: 35px; */
+}
+.spring_image{
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-img{
+transform: rotate(-44.31);
+}
+
+
+
+.sparkle_img{
+  position: relative;
+}
+
+
+
+.email{
+  color:#CD4631;
+  font-family: 'ITCGaramondStd';
+  font-weight: 700;
+  font-size: 32px;
+    text-decoration: underline;
+}
+
+.social-media{
+  display: flex;
+  gap:14px;
+}
+.logo-bg{
+  background-color: #F9E0DB;
+  border-radius: 18px;
+  padding:10px;
+}
+
+.logo-image{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.myWork{
+  margin-top: 200px;
+}
+.myWork-l1{
+  font-family: 'ITCGaramondStd';
+  font-size: 38px;
+  font-weight: 700;
+  color: #494949;
+}
+.myWork-l2{
+  font-family: 'ITCGaramondStd';
+  font-size: 52px;
+  font-weight: 700;
+  color: #494949;
+  margin-top: 16px;
+white-space: nowrap;
+}
+
+.web{
+  color: #E85E56;
+  font-family: 'ITCGaramondStd';
+  margin: 0;
+}
+
+.myWork-l3{
+  color: #494949CC;
+  opacity: 80%;
+  font-size: 24px;
+  font-weight: 700;
+  /* margin-top: 5px; */
+}
+.workDetails{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 66px;
+  grid-column: 2/3;
+  gap:40px;
+
+}
+.homepage{
+  width: 100%;
+}
+.person_img{
+  width: 80vh;
+}
+
+.research{
+  display: flex;
+  gap:20px;
+  width: 100%;
+  /* justify-content: space-evenly; */
+}
+
+.fadedOff{
+  color: #49494999;
+  display: flex;
+  gap:20px;
+  width: 100%;
+  /* justify-content: space-evenly; */
+}
+
+
+
+.ranking{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+}
+.ellipse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.number{
+  position: absolute;
+}
+.numberOne{
+  position: absolute;
+  color: #E85E56;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.otherNumbers{
+  position: absolute;
+  color: #49494999;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.myWorkSection{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+}
+.researchTitle{
+  margin: 0;
+  color: #494949;
+  font-size: 44px;
+  font-weight: 700;
+  font-family: 'ITCGaramondStd';
+  text-decoration: underline;
+}
+
+.fadedTitle{
+  margin: 0;
+  color: #49494999;
+  fill-opacity: 60%;
+  font-size: 44px;
+  font-weight: 700;
+  font-family: 'ITCGaramondStd';
+  text-decoration: underline;
+}
+.loremPara{
+  font-family:sans-serif;
+  color: #494949;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+.text{
+  width: 298px;
+}
+
+.fadedText{
+  color:#49494999;
+}
+.allWorks{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+ justify-content: space-between;
+ margin-bottom: 100px;
+}
+.exampleTitle{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #494949;
+  font-family: 'ITCGaramondStd';
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.5px
+}
+
+.hSparkle{
+  position: relative;
+  margin-left: -22px;
+}
+.seeMore{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  color: #494949;
+font-family: sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+.exampleWorks{
+  margin-top: 140px;
+}
+
+.allProjects{
+
+  margin-top: 104px;
+  display: flex;
+  justify-content: center;
+  gap:45px;
+  margin:auto;
+  margin-bottom:300px;
+}
+
+.hairStlylist-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.hakiWebsite-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.hairStlylist{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+ align-items: center;
+}
+
+.hakiWebsite{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+ align-items: center;
+}
+
+
+.project-title{
+  color: #494949;
+  font-family: 'ITCGaramondStd';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal
+}
+
+.project-type{
+  background-color: #E4F2E8;
+  border-radius: 18px;
+  color: #494949;
+font-family: sans-serif;
+font-size: 14px;
+padding: 8px;
+font-weight: 600;
+
+}
+.project-type-two{
+  background-color: #FFF1EB;
+  border-radius: 18px;
+  color: #494949;
+font-family: sans-serif;
+font-size: 14px;
+padding: 8px;
+font-weight: 600;
+}
+.redArrow{
+  margin-top: 25px;
+}
+.project-link{
+margin-top: 10px;
+color: #E85E56;
+font-family: sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.clientSecHeading{
+display: flex;
+justify-content: center;
+  color: #494949;
+  margin: auto;
+  font-family: 'ITCGaramondStd';
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.rectangleImg{
+  width: 100%;
+}
+
+.clientReviews{
+  display: flex;
+  gap:45px;
+  margin-top: 152px;
+  justify-content: space-evenly;
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+h5{
+  font-weight: 300;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column legend {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+legend{
+  display: inline-flex;
+margin: 9px 28px 9px 29px;
+justify-content: center;
+align-items: center;
+font-weight: 700;
+font-size: 22px;
+font-style: normal;
+font-family: 'ITCGaramondStd';
+
+}
+
+fieldset{
+  border-radius: 18px;
+border: 1px solid #494949;
+background: #FFF;
+padding: 64px;
+
+color: #494949;
+font-family: 'ITCGaramondStd';
+font-size: 22px;
+letter-spacing: -1px;
+font-weight: 300;
+
+
+}
+
+.firstReviewSection{
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  gap:66px;
+
+}
+
+.secondReviewSection{
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  gap:66px;
+  margin-top: 80px;
+
+}
+
+.userName{
+  margin-top: 42px;
+}
+.quotes{
+  margin-bottom: 10px;
+  position: relative;
+    left: -15px;
+}
+.moreAboutMeSection{
+  margin-top: 300px;
+}
+
+.moreAboutTitle{
+display: flex;
+  justify-content: center;
+  color: #494949;
+  font-family: 'ITCGaramondStd';
+font-size: 52px;
+font-weight: 700;
+
+}
+
+.moreAboutMe{
+  display: flex;
+  margin-top: 128px;
+  gap:96px;
+  margin-left: 196px;
+  margin-right: 196px;
+  justify-content: center;
+  margin-bottom: 128px;
+}
+
+.aboutMeText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textBold{
+  color: #494949;
+  font-family: 'ITCGaramondStd';
+  font-size: 44px;
+  font-weight: 700;
+  max-width: 34rem;
+ 
+}
+.moreText{
+  color: rgba(73, 73, 73, 0.80);
+font-family: sans-serif;
+font-size: 18px;
+margin-top: 35px;
+font-weight: 200;
+max-width: 34rem;
+
+}
+
+.myImageDiv{
+  border-radius: 18px 18px 18px 0px;
+background: #F9B7A9;
+}
+.contactBtn{
+  display: flex;
+align-items: center;
+  margin-top: 300px;
+  flex-direction: column;
+}
+
+.contactMeText{
+  color: #494949;
+  font-family: 'ITCGaramondStd';
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+.workOnText{
+  
+  color: #494949;
+  text-align: center;
+  font-family: 'ITCGaramondStd';
+  font-size: 52px;
+  font-weight: 700;
+
+}
+
+.frame14{
+  margin-top: 65px;
+  margin-bottom: 147px;
+}
+
+
+@media screen and (max-width:1600px) {
+
+  .myWork{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   place-items: center;
+  }
+
+  .achievements{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .two-wrapper{
+    place-items: center;
+    display: grid;
+ 
+   
+  }
+  .myWorkSection{
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .workDetails{
+    grid-column: 1;
+  }
+  .one-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    
+    align-items: center;
+    margin: auto;
+    gap:20px;
+}
+.research ,.fadedOff{
+  justify-content: center;
+}
+.exampleWorks{
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.projects-completed{
+  
+  gap: 20px;
+  width: 60vw;
+}
+
+.hours-worked{
+  width: 60vw;
+}
+}
+
+@media screen and (max-width:1200px) {
+  .nameText{
+    font-size: 28px;
+  }
+  .introductionText{
+    font-size: 46px;
+  }
+  .person_img{
+    width: 70%;
+  }
+  .clientReviews{
+    gap:30px;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width:1024px) {
+.one-wrapper{
+  width: 60vw;
+}
+.projects-completed{
+  padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.hours-worked{
+  padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.project_count{
+  font-size: 52px;
+}
+.project_text{
+  font-size: 32px;
+}
+
+.line-img{
+  width: 64px;
+}
+
+.fire_img{
+  width: 4em;
+}
+.sparkle_img{
+  width: 8em;
+}
+.about-me{
+  font-size: 32px;
+  letter-spacing: 0px;
+}
+
+.smileyImage{
+  width: 10em;
+}
+
+.email{
+  font-size: 28px;
+}
+
+.logo-image{
+  width: 2em;
+}
+.logo-bg{
+  padding: 08px;
+}
+.myWork-l1{
+  font-size: 30px;
+}
+.arrow-icon{
+  width: 3rem;
+}
+.myWork-l2{
+  font-size: 2.8rem;
+  margin-top: 5px;
+}
+.researchTitle{
+  font-size: 36px;
+}
+.fadedTitle{
+  font-size: 36px;
+}
+.loremPara{
+  font-size: 15px;
+}
+.exampleTitle{
+  font-size: 2.8rem;
+}
+.lineSparkle{
+  width: 5rem;
+}
+.seeMore{
+  font-size: 18px;
+}
+.project-title{
+  font-size: 18px;
+}
+.project-type{
+  font-size: 10px;
+}
+.project-type-two{
+  font-size: 10px;
+}
+.project-link{
+  font-size: 12px;
+}
+.clientSecHeading{
+  font-size: 2.8em;
+}
+.redArrow{
+  width: 3rem;
+}
+.rectangleImg{
+  width: 20rem;
+}
+.clientReviews{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+fieldset{
+  padding: 30px;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+.quotes{
+  width: 1rem;
+}
+legend{
+  font-size: 18px;
+}
+.moreAboutTitle{
+  font-size: 2.8em;
+}
+.rightArrow{
+  width: 4.5rem;
+}
+
+.myImageDiv{
+  background: none;
+}
+.myImage{
+  width: 20rem;
+}
+.moreAboutMe{
+ 
+  gap:40px;
+}
+.textBold{
+  font-size: 22px;
+  width: 20rem;
+  max-width: 50rem;
+}
+.moreText{
+  font-size: 14px;
+}
+.menu_img{
+  width: 3rem;
+ 
+}
+.contactMeText{
+  font-size: 22px;
+}
+.workOnText{
+  font-size: 38px;
+}
+.frame14{
+  width: 5rem;
+  min-width: 3rem;
+}
+.two-wrapper{
+  display: flex;
+    flex-direction: column-reverse;
+}
+}
+
+@media screen and (max-width:768px) {
+  .introductionText{
+
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+
+  .person_img{
+    width: 100vw;
+  }
+
+  .allProjects{
+    flex-direction: column;
+  }
+  .exampleTitle{
+    font-size: 20px;
+  }
+
+  .seeMore{
+    font-size: 12px;
+  }
+  .lineSparkle{
+    width: 3rem;
+  }
+
+  .clientSecHeading{
+    font-size: 1.7rem;
+  }
+
+  .redArrow{
+    margin-top: 15px;
+    width: 2rem;
+  }
+
+  .clientReviews{
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quotes{
+    width: 0.7rem;
+    left:-2px
+  }
+
+  .ratingStar{
+    width: 8rem;
+  }
+  fieldset{
+    padding: 25px;
+    font-size: 14px;
+  }
+
+  .myWork-l2{
+    font-size: 25px;
+  }
+  .myWork-l1{
+    font-size:30px;
+  }
+  .myWork-l3{
+    font-size:20px;
+  }
+  .researchTitle{
+    font-size: 24px;
+  }
+  .fadedTitle{
+    font-size: 24px;
+  }
+  .numberOne{
+    font-size: 20px;
+  }
+  .loremPara{
+    font-size: 14px;
+  }
+.one-wrapper{
+  width: 60vw;
+  padding: 22px;
+}
+  .about-me{
+    font-size: 24px;
+  }
+  .smileyImage{
+    width: 6rem;
+  }
+  .email{
+    font-size: 18px;
+  }
+  .logo-image{
+    width: 18px;
+  }
+  .moreAboutTitle{
+    font-size: 1.7em;
+  }
+  .myImage{
+    width: 12rem;
+  }
+  .textBold{
+    font-size: 18px;
+    max-width: 12rem;
+  }
+  .moreText{
+    font-size: 10px;
+  }
+  .moreAboutMe{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .firstReviewSection{
+    width: 55%;
+  }
+  .secondReviewSection{
+    margin-top: 20px;
+    width: 55%;
+  }
+  .project_count{
+    font-size: 28px;
+  }
+  .project_text{
+    font-size: 20px;
+    letter-spacing: 0px;
+  }
+  .nameText{
+    font-size: 22px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .menu_img{
+    width:2.5rem;
+  }
+  .line-img{
+    width: 28px;
+  }
+  .sparkle_img{
+    width: 4rem;
+  }
+
+  .fire_img{
+    width:  28px;
+  }
+  .achievements{
+    gap: 30px;
+  }
+  .workOnText{
+    font-size: 32px;
+  }
+  .otherNumbers{
+    font-size: 20px;
+  }
+
+  .workDetails{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+
+@media screen and (max-width:480px){
+  .nameText{
+    font-size: 24px;
+  }
+ 
+  .normal-font{
+    font-size: 18px;
+  }
+  .project_text{
+    font-size: 10px;
+  }
+  .about-me{
+    font-size: 22px;
+  }
+  .introductionText{
+    font-size: 20px;
+  }
+  .circle{
+    width: 35px;
+  }
+  .workDetails{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .loremPara{
+    font-size: 10px;
+  }
+
+  .myWork-l2{
+    font-size: 22px;
+  }
+  .myWork-l1{
+    font-size: 22px;
+  }
+  .arrow-icon{
+    width: 1.5rem;
+  }
+  .allWorks{
+    padding:0;
+    font-size: 18px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+  }
+  .exampleTitle{
+    justify-content: flex-start;
+  }
+  .seeMore{
+    margin-top: 10px;
+  }
+  .rectangleImg{
+    width: 18rem;
+    height: 16rem;
+  }
+  .project-title{
+    font-size: 13px;
+  }
+  .project-type{
+    font-size: 8px;
+  }
+  .project-type-two{
+    font-size: 8px;
+  }
+  .project-link{
+    font-size: 10px;
+  }
+  .clientSecHeading{
+    font-size: 20px;
+  }
+  .redArrow{
+    width: 1.5rem;
+  }
+
+  legend{
+    font-size: 15px;
+  }
+  fieldset{
+    font-size: 12px;
+  }
+  .moreAboutTitle{
+    font-size: 20px;
+  }
+  .rightArrow{
+    width: 1.8rem;
+  }
+  .email{
+    font-size: 14px;
+  }
+  .myImage{
+    width: 5rem;
+  }
+  .textBold{
+    font-size: 15px;
+  }
+  .moreText{
+    font-size: 9px;
+    margin-top: 18px;
+  }
+  .moreAboutMe{
+    gap:15px;
+    margin-top: 80px;
+  }
+.moreAboutMeSection{
+  margin-top: 120px;
+}
+  .contactBtn{
+    margin-top: 150px;
+  }
+  .contactMeText{
+    font-size: 16px;
+  }
+  .allProjects{
+    margin-bottom: 160px;
+  }
+  .exampleWorks{
+    margin-bottom: 0px;
+  }
+  .workOnText{
+    font-size: 20px;
+  }
+  .frame14{
+    width: 1.8rem;
+    margin-bottom: 60px;
+  }
+  .about-me{
+    font-size: 16px;
+  }
+}
