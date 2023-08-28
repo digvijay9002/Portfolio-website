@@ -16,7 +16,9 @@
   </head>
   <body>
     <nav>
+          <div class="menubarDiv">
       <img src="./image/menu_Icon.png" class="menu_img">
+        </div>
     </nav>
     <div class="main">
       <section class="homepage">
@@ -39,7 +41,7 @@
             <div class="two-wrapper">
               <div class="projects-completed">
                 <div class="all-text">
-                  <span class="project_count"> 20<span class="normal-font">+</span></span>
+                  <span class="project_count"> 07<span class="normal-font">+</span></span>
                   <span class="project_text">Projects Completed</span>
                 </div>
                 <div class="spring_image">
@@ -61,7 +63,7 @@
 
             <div class="one-wrapper">
               <div class="about-me">
-                Love to chat about <br>anything anytime, <br>design, work,<br>
+                Love to chat about anything anytime, design, work,
                 collabrations, or life...
               </div>
               <div class="smiley-face">
@@ -73,12 +75,10 @@
                     class="email">digvijay.chavda@zuru.com</a></span>
               </div>
               <div class="social-media">
-                <div class="logo-bg"> <img src="./image/instagram.png"
-                    class="logo-image"> </div>
-                <div class="logo-bg"> <img src="./image/twitter.png"
-                    class="logo-image"> </div>
+                <div class="logo-bg"> <a href="https://www.instagram.com/digvijay_chavda07/" target="_blank"><img src="./image/instagram.png"
+                    class="logo-image" > </a></div>
                 <div class="logo-bg"> <a
-                    href="https://in.linkedin.com/in/digvijaychavda"><img
+                    href="https://in.linkedin.com/in/digvijaychavda" target="_blank"><img
                       src="./image/vector.png"
                       class="logo-image"></a> </div>
 
@@ -100,23 +100,26 @@
           </div>
         </div>
         <div></div>
+        <div class="relatedImages"> 
+            <img src="./image/research.jpg" id="image">
 
+        </div>
         <div class="workDetails">
           <div class="research">
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="numberOne">01.</span>
+                <span class="otherNumbers" id="selectedNumber">01.</span>
               </div>
 
               <div>
                 <img
-                  src="./image/brush-pen-arrow--dashed-filled-head-wiggle-short.png" />
+                  src="./image/brush-pen-arrow--dashed-filled-head-wiggle-short.png"  />
               </div>
 
             </div>
             <div class="text">
-              <p class="researchTitle">Research</p>
+              <p class="researchTitle"> <button class="clickableBtn" onclick="changeImage()"> Research</button></p>
               <p class="loremPara"> Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
@@ -128,7 +131,7 @@
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="otherNumbers">02.</span>
+                <span class="otherNumbers" id="selectedNumber2">02.</span>
               </div>
 
               <div>
@@ -138,7 +141,7 @@
 
             </div>
             <div class="text">
-              <p class="fadedTitle">Design</p>
+              <p class="fadedTitle"> <button class="clickableBtn" onclick="Design()">Design</button></p>
               <p class="loremPara"> Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
@@ -150,7 +153,7 @@
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="otherNumbers">03.</span>
+                <span class="otherNumbers" id="selectedNumber3">03.</span>
               </div>
 
               <div>
@@ -160,7 +163,7 @@
 
             </div>
             <div class="text">
-              <p class="fadedTitle">Development</p>
+              <p class="fadedTitle"><button class="clickableBtn" onclick="Development()">Development</button></p>
               <p class="loremPara"> Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
@@ -172,7 +175,7 @@
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="otherNumbers">04.</span>
+                <span class="otherNumbers" id="selectedNumber4">04.</span>
               </div>
 
               <div>
@@ -182,7 +185,7 @@
 
             </div>
             <div class="text">
-              <p class="fadedTitle">Review</p>
+              <p class="fadedTitle"><button class="clickableBtn" onclick="Review()">Review</button></p>
               <p class="loremPara"> Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
@@ -190,7 +193,7 @@
 
           </div>
 
-        </div>
+        
       </section>
 
       <section class="exampleWorks">
@@ -201,27 +204,29 @@
         </div>
 
         <div class="seeMore">
-          See Everything>
+          <a href="https://github.com/digvijay9002" target="_blank">See Everything > </a>
         </div>
       </div>
         <div class="allProjects">
             <div class="hairStlylist-wrapper">
-              <div><img src="./image/Rectangle 14.png" class="rectangleImg"></div>
+              <div class="imgContainer">
+                <img src="./image/TMDB clone.png" class="tmdbClone">
+              </div>
               <div class="hairStlylist">
-                <div><span class="project-title">Hairstlylist Web Site Design</span></div>
+                <div><span class="project-title">TMDB Website Clone</span></div>
                 <div> <span class="project-type">WEB DESIGN</span></div>
               </div>
-              <p class="project-link"> open project</p>
+              <p class="project-link"> <a href="https://github.com/digvijay9002/movieWebsite" target="_blank">open project</a></p>
             </div>
             <div class="hakiWebsite-wrapper">
-              <div><img src="./image/Rectangle 15.png" class="rectangleImg"></div>
+              <div class="imgContainer"><img src="./image/spotify clone.png" class="spotifyClone"></div>
               <div class="hakiWebsite">
-                <div><span class="project-title">Haki Website</span></div>
+                <div><span class="project-title">Spotify Clone</span></div>
                 <div> <span class="project-type">WEB DESIGN</span>
                       <span class="project-type-two">DEVELOPMENT</span>    
                 </div>
               </div>
-              <p class="project-link"> open project</p>
+              <p class="project-link"> <a href="https://github.com/digvijay9002/spotifyClone" target="_blank"> open project</p></a>
             </div>
           </div>
       
@@ -260,15 +265,7 @@
                   </div>
                 </fieldset>
               </div>
-
-
                 </div>
-
-
-
-
-
-
                 <div class="secondReviewSection">
                   <div>
                         <fieldset>
@@ -297,7 +294,7 @@
                     </div>
                       </div>
                 </div>
-        </div>
+      
       </section>
 
       <section class="moreAboutMeSection">
@@ -335,5 +332,33 @@ humble.
           </div>
       </section>
     </div>
+  </div>
   </body>
+  <script>
+     function changeImage()
+     {
+        var img = document.getElementById('image')
+        img.src="./image/research.jpg";
+
+        document.getElementById('selectedNumber').style.color= " #E85E56";
+    }
+
+    function Development(){
+      var img = document.getElementById('image')
+        img.src="./image/development.jpg";
+        document.getElementById('selectedNumber3').style.color= " #E85E56";
+    }
+
+    function Review(){
+      var img = document.getElementById('image')
+        img.src="./image/review.jpg";
+        document.getElementById('selectedNumber4').style.color= " #E85E56";
+    }
+
+    function Design(){
+      var img = document.getElementById('image')
+      img.src="./image/design.jpg";
+      document.getElementById('selectedNumber2').style.color= " #E85E56";
+    }
+  </script>
 </html>
