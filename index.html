@@ -94,7 +94,7 @@
         <div class="myWork">
           <span class="myWork-l1">
             What I do? &nbsp; <img src="./image/arrow.png" class="arrow-icon">
-          </span><br>
+          </span>
           <div class="myWork-l2">
             I Create Your Presence On <span class="web">Web</span>
           </div>
@@ -102,9 +102,9 @@
             In four steps
           </div>
         </div>
-        <div></div>
+       
         <div class="relatedImages"> 
-            <img src="./image/research.jpg" id="image">
+            <img src="./image/1.jpg" id="image">
 
         </div>
         <div class="workDetails">
@@ -112,7 +112,7 @@
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="otherNumbers" id="selectedNumber">01.</span>
+                <span class="otherNumbers" id="1">01.</span>
               </div>
 
               <div>
@@ -122,7 +122,7 @@
 
             </div>
             <div class="text">
-              <p class="researchTitle"> <button class="clickableBtn" onclick="changeImage()"> Research</button></p>
+              <p class="researchTitle"> <button class="clickableBtn" id="1" onclick="changeImage(this.id)"> Research</button></p>
               <p class="loremPara"> Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
@@ -134,7 +134,7 @@
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="otherNumbers" id="selectedNumber2">02.</span>
+                <span class="otherNumbers" id="2">02.</span>
               </div>
 
               <div>
@@ -144,7 +144,7 @@
 
             </div>
             <div class="text">
-              <p class="fadedTitle"> <button class="clickableBtn" onclick="Design()">Design</button></p>
+              <p class="fadedTitle"> <button class="clickableBtn"id="2" onclick="changeImage(this.id)">Design</button></p>
               <p class="loremPara"> Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
@@ -156,7 +156,7 @@
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="otherNumbers" id="selectedNumber3">03.</span>
+                <span class="otherNumbers" id="3">03.</span>
               </div>
 
               <div>
@@ -167,7 +167,7 @@
             </div>
             <div class="text">
               <p class="fadedTitle">
-                <button class="clickableBtn" onclick="Development()">Development</button></p>
+                <button class="clickableBtn" id="3" onclick="changeImage(this.id)">Development</button></p>
               <p class="loremPara"> Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
@@ -179,7 +179,7 @@
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="otherNumbers" id="selectedNumber4">04.</span>
+                <span class="otherNumbers" id="4">04.</span>
               </div>
 
               <div>
@@ -189,7 +189,7 @@
 
             </div>
             <div class="text">
-              <p class="fadedTitle"><button class="clickableBtn" onclick="Review()">Review</button></p>
+              <p class="fadedTitle"><button class="clickableBtn" id="4" onclick="changeImage(this.id)">Review</button></p>
               <p class="loremPara"> Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
@@ -341,30 +341,48 @@ humble.
   </div>
   </body>
   <script>
-     function changeImage()
-     {
-        var img = document.getElementById('image')
-        img.src="./image/research.jpg";
+    //  function changeImage()
+    //  {
+    //     var img = document.getElementById('image')
+    //     img.src="./image/research.jpg";
 
-        document.getElementById('selectedNumber').style.color= " #E85E56";
-    }
+    //     document.getElementById('selectedNumber').style.color= " #E85E56";
+    // }
 
-    function Development(){
-      var img = document.getElementById('image')
-        img.src="./image/development.jpg";
-        document.getElementById('selectedNumber3').style.color= " #E85E56";
-    }
+    // function Development(){
+    //   var img = document.getElementById('image')
+    //     img.src="./image/development.jpg";
+    //     document.getElementById('selectedNumber3').style.color= " #E85E56";
+    // }
 
-    function Review(){
-      var img = document.getElementById('image')
-        img.src="./image/review.jpg";
-        document.getElementById('selectedNumber4').style.color= " #E85E56";
-    }
+    // function Review(){
+    //   var img = document.getElementById('image')
+    //     img.src="./image/review.jpg";
+    //     document.getElementById('selectedNumber4').style.color= " #E85E56";
+    // }
 
-    function Design(){
-      var img = document.getElementById('image')
-      img.src="./image/design.jpg";
-      document.getElementById('selectedNumber2').style.color= " #E85E56";
-    }
+    // function Design(){
+    //   var img = document.getElementById('image')
+    //   img.src="./image/design.jpg";
+    //   document.getElementById('selectedNumber2').style.color= " #E85E56";
+    // }
+
+
+    function changeImage(id){
+      console.log("Hello", id);
+      var img = document.getElementById('image');
+      img.src= `./image/${id}.jpg`;
+      document.getElementById(id).style.color= " #E85E56";
+
+      var arr =[1,2,3,4];
+      arr.map((i) => {
+        if(i!= id){
+          console.log(i);
+          document.getElementById(i).style.color= "";
+          console.log("check",i)
+        }
+      })
+      }
+
   </script>
 </html>
