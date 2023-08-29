@@ -112,7 +112,7 @@
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="otherNumbers" id="1">01.</span>
+                <span class="otherNumbers" id="N1">01.</span>
               </div>
 
               <div>
@@ -134,7 +134,7 @@
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="otherNumbers" id="2">02.</span>
+                <span class="otherNumbers" id="N2">02.</span>
               </div>
 
               <div>
@@ -156,7 +156,7 @@
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="otherNumbers" id="3">03.</span>
+                <span class="otherNumbers" id="N3">03.</span>
               </div>
 
               <div>
@@ -179,7 +179,7 @@
             <div class="ranking">
               <div class="ellipse">
                 <img src="./image/Ellipse 1.png" class="circle">
-                <span class="otherNumbers" id="4">04.</span>
+                <span class="otherNumbers" id="N4">04.</span>
               </div>
 
               <div>
@@ -220,7 +220,7 @@
                 <div><span class="project-title">TMDB Website Clone</span></div>
                 <div> <span class="project-type">WEB DESIGN</span></div>
               </div>
-              <p class="project-link"> <a href="https://github.com/digvijay9002/movieWebsite" target="_blank">open project</a></p>
+              <p class="project-link"> <a href="https://moviewebsite-8c102.web.app/" target="_blank">open project</a></p>
             </div>
             <div class="hakiWebsite-wrapper">
               <div class="imgContainer"><img src="./image/spotify clone.png" class="spotifyClone"></div>
@@ -372,13 +372,15 @@ humble.
       console.log("Hello", id);
       var img = document.getElementById('image');
       img.src= `./image/${id}.jpg`;
-      document.getElementById(id).style.color= " #E85E56";
+      document.getElementById(id).style.color= " #494949";
+      document.getElementById(`N${id}`).style.color= "#E85E56";
 
       var arr =[1,2,3,4];
       arr.map((i) => {
         if(i!= id){
           console.log(i);
           document.getElementById(i).style.color= "";
+          document.getElementById(`N${i}`).style.color= "";
           console.log("check",i)
         }
       })
@@ -386,3 +388,4 @@ humble.
 
   </script>
 </html>
+#E85E56";#E85E56";#E85E56";

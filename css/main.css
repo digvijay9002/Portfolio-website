@@ -785,6 +785,9 @@ align-items: center;
 }
 
 @media screen and (max-width:1200px) {
+  .about-me{
+ text-align: center;
+  }
    .achievements{
     flex-direction: column;
     justify-content: center;
@@ -856,6 +859,12 @@ align-items: center;
   .moreAboutTitle{
     padding-bottom: 50px;
   }
+  .project-type{
+    font-size: 9px;
+  }
+  .project-type-two{
+    font-size: 9px;
+  }
 
 }
 
@@ -870,6 +879,7 @@ align-items: center;
     padding-bottom: 12px;
 }
 .hours-worked{
+  height: 100%;
   padding-left: 40px;
     padding-right: 40px;
     padding-top: 12px;
@@ -943,10 +953,10 @@ align-items: center;
   font-size: 18px;
 }
 .project-type{
-  font-size: 10px;
+  font-size: 8px;
 }
 .project-type-two{
-  font-size: 10px;
+  font-size: 8px;
 }
 .project-link{
   font-size: 12px;
@@ -1016,8 +1026,9 @@ legend{
   min-width: 3rem;
 }
 .two-wrapper{
-  display: flex;
-    flex-direction: column-reverse;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
 }
 
 .allProjects{
